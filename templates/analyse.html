@@ -1,0 +1,47 @@
+ {% extends "layout.html" %}
+ {% block body %}
+           <div class="rows">
+           <div class="col-sm-3">
+           </div>
+           <div class="col-sm-6">
+           <!--Saksham all you need is here you can do anything-->
+          <div class="panel panel-primary" style="padding:10px;">
+               <div class="panel-body bg-info">
+                     <form method="post" enctype="multipart/form-data" action='/analyse' class="bg-danger" style="padding:10px">
+                       <div class="form-group">
+                        <h3><b><center><u>CLICK ON ANAYSE</u></center></b></h3>
+                       </div>
+                     <hr>
+                    <center>
+                     <div class="imagesection">
+                        <img id="output" width="300" height="200" style="border:2px solid red">
+                     </div>
+                    </center>
+                     <center>
+                       <div class="form-group" style="">
+                         <label class="control-label" for="image"><u><font color="red">Select Infected Leaf Image</font></u></label>
+                         <input  type="file" accept="image/*" class="form-control" name="leaf" style="width:40%" onchange="loadfile(event)">
+                         </div><br><br>
+                     </center>
+                     <center>
+                      <div class="form-group">
+                    
+                          <input  type="submit" class="btn btn-success btn-block" value="ANALYSE" name="analyse" style="width:25%">
+                       </div>
+                     </center>
+                     </form>
+                </div>
+              </div>
+           </div>
+           <div class="col-sm-3">
+        </div>
+       </div>
+ {% endblock %}
+ {% block script %}
+ <script>
+     var loadfile = function(event) {
+        var image = document.getElementById('output')
+        image.src = URL.createObjectURL(event.target.files[0]);
+     };
+ </script>
+ {% endblock %}

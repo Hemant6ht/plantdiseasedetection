@@ -1,0 +1,76 @@
+{% extends "layout.html" %}
+{% block css %}
+<style>
+          h2{
+            margin-top: 2px;
+            margin-bottom: 2px;
+            }
+
+          .cont { max-width: 460px; }
+
+          .divider {
+            text-align: center;
+            margin-top: 20px;
+            margin-bottom: 5px;
+            }
+
+          .divider hr {
+            margin: 7px 0px;
+            width: 35%;
+            }
+
+          .left { float: left; }
+
+          .right { float: right; }
+
+</style>
+{% endblock %}
+{% block body %}
+<div class="row" style="margin-left: 15px; margin-right: 15px">
+                <div class="col-sm-12" style="background-image:linear-gradient(to right bottom,rgba(120,189,230,1),rgba(230,160,120,1));padding-top:40px;padding-bottom: 20px">
+                    <div class="container cont">
+                          <div class="row">
+                               <div class="panel panel-primary"  style="border-radius: 20px;border:2px solid lightblue;box-shadow: 5px 5px 2px rgba(230,160,120,1)">
+                                <center><h2 style="z-index: 1;"><font face="Titillium Web">Register As Farmer</font></h2></center>
+                                    <div class="panel-body" style="background-color: silver;color:white">
+                                        <form method="post" role="form" class="" action='/register'>
+                                            <div class="form-group">
+                                                
+                                                 <input id="signupName" type="text" maxlength="50" class="form-control" name="name" autofocus placeholder="Full Name">
+                                </div>
+
+                                            <div class="form-group">
+                                               
+                                                <input type="text" maxlength="50" class="form-control" name="mobile" placeholder="Mobile Number">
+                                            </div>
+                                            <div class="form-group">
+                                            
+                                  <input name="password" type="password" maxlength="25" class="form-control" placeholder="Password " length="40">
+                                            </div>
+                                <div class="form-group">
+                                             
+                                                <input type="text" maxlength="50" class="form-control" name="plot" placeholder="Total Plot in Acre">
+                                            </div>
+                                            
+                                <div class="form-group">
+                                   <textarea class="form-control" name="address" style="margin: 0px; width: 99%; height: 119px;border-radius: 8px;padding:10px" placeholder="Full Address"></textarea>
+                                            </div>
+
+                                            <div class="form-group">
+                                                <input id="signupSubmit" type="submit" class="btn btn-info btn-block" value="Register as Farmer" name="btn_reg">
+                                            </div>
+                                            <p class="form-group">
+                                  By creating an account, you agree to our <a href="#">Terms of Use</a> and our <a href="#">Privacy Policy</a>
+                                </p>
+                                            <hr>
+                                            <p>
+                                  Already have an account? <a href="/login">Sign In</a>
+                                </p>
+                              </form>
+                                    </div>
+                             </div>
+                        </div>
+                   </div>
+              </div>
+          </div>
+{% endblock %}

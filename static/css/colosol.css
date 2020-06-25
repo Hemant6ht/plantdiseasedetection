@@ -1,0 +1,39 @@
+  .mySlides{
+        display:none;
+    }
+    .colbtn{
+        background-color: black;
+        opacity:0.8;
+    }
+    .colbtn:hover{
+        background-color:gray;
+        opacity:1;
+        
+    }
+    .coltxt{
+        position:absolute;
+        left:50%;
+        bottom:10%;
+        transform:translate(-50%,0%);
+        -ms-transform:translate(-50%,0%);
+        font-size: 1.5vw;
+        
+       
+      
+       color:white;
+       font-family:cooper;
+        
+    }
+.coltxttv{
+position:absolute;
+left:10%;
+bottom: -40%;
+font-size:1.2vw;
+font-family: arial;
+color:black;
+margin:-8px;
+
+
+
+
+}

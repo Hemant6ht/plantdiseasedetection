@@ -1,0 +1,158 @@
+
+{% extends "layout.html" %}
+{% block body %}
+<div class="rows">
+                <div class="col-sm-12">
+                <font face="Titillium Web" color="green"><h2><center>Members</center></h2></font>
+                <hr>
+                <font face="Titillium Web"><h4>
+                <div style="display: flex;justify-content: space-between;margin-bottom: 20vh;margin-top: 20vh;">
+                    <div class="card" style="width: 18rem;border:2px solid green;padding: 5px;height: auto;background-color: #e6fff8;box-shadow: 3px 3px 0px gray">
+                        <img class="card-img-top" src="{{url_for('static',filename='images/members/me.jpg')}}" alt="Card image cap" height="50%" width="100%">
+                        <div class="card-body" style="margin-top: 20%;text-align: center;">
+                            <h3 class="card-text">Hemant Kumar</h3>
+                            <p class="card-text">1705040</p>
+                            <a href="https://www.facebook.com/hemantkumar.yadav.73345/" target="-blank"><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
+                        </div>
+                    </div>
+
+                    <div class="card" style="width: 18rem;border:2px solid green;padding: 5px;height: auto;background-color: #e6fff8;box-shadow: 3px 3px 0px gray">
+                        <img class="card-img-top" src="{{url_for('static',filename='images/members/saksham.jpg')}}" alt="Card image cap" height="50%" width="100%">
+                        <div class="card-body" style="margin-top: 20%;text-align: center;">
+                            <h3 class="card-text">Saksham Jaishwal</h3>
+                            <p class="card-text">17050</p>
+                            <a href="https://www.facebook.com/saksham.jaiswal.923" target="-blank"><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
+                        </div>
+                    </div>
+
+                    <div class="card" style="width: 18rem;border:2px solid green;padding: 5px;height: auto;background-color: #e6fff8;box-shadow: 3px 3px 0px gray">
+                        <img class="card-img-top" src="{{url_for('static',filename='images/members/sehroz.jpg')}}" alt="Card image cap" height="50%" width="100%">
+                        <div class="card-body" style="margin-top: 20%;text-align: center;">
+                            <h3 class="card-text">Md Sehroz</h3>
+                            <p class="card-text">1705047</p>
+                            <a href="https://www.facebook.com/sehroz.alam" target="-blank"><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
+                        </div>
+                    </div>
+
+                   <div class="card" style="width: 18rem;border:2px solid green;padding: 5px;height: auto;background-color: #e6fff8;box-shadow: 3px 3px 0px gray">
+                        <img class="card-img-top" src="{{url_for('static',filename='images/members/raghu.jpg')}}" alt="Card image cap" height="50%" width="100%">
+                        <div class="card-body" style="margin-top: 20%;text-align: center;">
+                            <h3 class="card-text">Raghuvir Mukhi</h3>
+                            <p class="card-text">17050</p>
+                            <a href="#" target="-blank"><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
+                        </div>
+                    </div>
+                    <div class="card" style="width: 18rem;border:2px solid green;padding: 5px;height: auto;background-color: #e6fff8;box-shadow: 3px 3px 0px gray">
+                        <img class="card-img-top" src="{{url_for('static',filename='images/members/ayush.jpg')}}" alt="Card image cap" height="50%" width="100%">
+                        <div class="card-body" style="margin-top: 20%;text-align: center;">
+                            <h3 class="card-text">Aayush Kumar</h3>
+                            <p class="card-text">1705029</p>
+                            <a href="https://www.facebook.com/profile.php?id=100027091477641" target="-blank"><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
+                        </div>
+                    </div>
+                </div>
+                 </h4></font><br><br>
+                <font face="Titillium Web" color="green"><h3><center><u>Project Introduction</u></center></h3></font><br><hr>
+                <font face="" color="red"><h4>
+                <p>
+                Modern technologies have given human society the ability to produce enough food to meet the demand of more than 7 billion people. However, food security remains threatened by a number of factors including climate change (Tai et al., 2014), the decline in pollinators (Report of the Plenary of the Intergovernmental Science-PolicyPlatform on Biodiversity Ecosystem and Services on the work of its fourth session, 2016), plant diseases (Strange and Scott, 2005), and others. Plant diseases are not only a threat to food security at the global scale, but can also have disastrous consequences for smallholder farmers whose livelihoods depend on healthy crops. In the developing world, more than 80 percent of the agricultural production is generated by smallholder farmers (UNEP, 2013), and reports of yield loss of more than 50% due to pests and diseases are common (Harvey et al., 2014). Furthermore, the largest fraction of hungry people (50%) live in smallholder farming households (Sanchez and Swaminathan, 2005), making smallholder farmers a group that's particularly vulnerable to pathogen-derived disruptions in food supply.
+                </p>
+                <p>
+                  Various efforts have been developed to prevent crop loss due to diseases. Historical approaches of widespread application of pesticides have in the past decade increasingly been supplemented by integrated pest management (IPM) approaches (Ehler, 2006). Independent of the approach, identifying a disease correctly when it first appears is a crucial step for efficient disease management. Historically, disease identification has been supported by agricultural extension organizations or other institutions, such as local plant clinics. In more recent times, such efforts have additionally been supported by providing information for disease diagnosis online, leveraging the increasing Internet penetration worldwide. Even more recently, tools based on mobile phones have proliferated, taking advantage of the historically unparalleled rapid uptake of mobile phone technology in all parts of the world (ITU, 2015).
+                </p>
+                <p>Smartphones in particular offer very novel approaches to help identify diseases because of their computing power, high-resolution displays, and extensive built-in sets of accessories, such as advanced HD cameras. It is widely estimated that there will be between 5 and 6 billion smartphones on the globe by 2020. At the end of 2015, already 69% of the world's population had access to mobile broadband coverage, and mobile broadband penetration reached 47% in 2015, a 12-fold increase since 2007 (ITU, 2015). The combined factors of widespread smartphone penetration, HD cameras, and high performance processors in mobile devices lead to a situation where disease diagnosis based on automated image recognition, if technically feasible, can be made available at an unprecedented scale. Here, we demonstrate the technical feasibility using a deep learning approach utilizing 54,306 images of 14 crop species with 26 diseases (or healthy) made openly available through the project PlantVillage (Hughes and Salathé, 2015). An example of each crop—disease pair can be seen in Figure 1.
+                </p>
+                <input type="button"  id="readmore" Value="Know More!" onclick="more()" class="btn btn-success" />
+                </h4></font>
+                <div id="extra" style="display: none">
+                <font face="" color="red"><h4>  
+                <p>
+                Computer vision, and object recognition in particular, has made tremendous advances in the past few years. The PASCAL VOC Challenge (Everingham et al., 2010), and more recently the Large Scale Visual Recognition Challenge (ILSVRC) (Russakovsky et al., 2015) based on the ImageNet dataset (Deng et al., 2009) have been widely used as benchmarks for numerous visualization-related problems in computer vision, including object classification. In 2012, a large, deep convolutional neural network achieved a top-5 error of 16.4% for the classification of images into 1000 possible categories (Krizhevsky et al., 2012). In the following 3 years, various advances in deep convolutional neural networks lowered the error rate to 3.57% (Krizhevsky et al., 2012; Simonyan and Zisserman, 2014; Zeiler and Fergus, 2014; He et al., 2015; Szegedy et al., 2015). While training large neural networks can be very time-consuming, the trained models can classify images very quickly, which makes them also suitable for consumer applications on smartphones.
+                </p>
+                <p>
+                Deep neural networks have recently been successfully applied in many diverse domains as examples of end to end learning. Neural networks provide a mapping between an input—such as an image of a diseased plant—to an output—such as a crop~disease pair. The nodes in a neural network are mathematical functions that take numerical inputs from the incoming edges, and provide a numerical output as an outgoing edge. Deep neural networks are simply mapping the input layer to the output layer over a series of stacked layers of nodes. The challenge is to create a deep network in such a way that both the structure of the network as well as the functions (nodes) and edge weights correctly map the input to the output. Deep neural networks are trained by tuning the network parameters in such a way that the mapping improves during the training process. This process is computationally challenging and has in recent times been improved dramatically by a number of both conceptual and engineering breakthroughs (LeCun et al., 2015; Schmidhuber, 2015).
+                </p>
+                <p>
+                In order to develop accurate image classifiers for the purposes of plant disease diagnosis, we needed a large, verified dataset of images of diseased and healthy plants. Until very recently, such a dataset did not exist, and even smaller datasets were not freely available. To address this problem, the PlantVillage project has begun collecting tens of thousands of images of healthy and diseased crop plants (Hughes and Salathé, 2015), and has made them openly and freely available. Here, we report on the classification of 26 diseases in 14 crop species using 54,306 images with a convolutional neural network approach. We measure the performance of our models based on their ability to predict the correct crop-diseases pair, given 38 possible classes. The best performing model achieves a mean F1 score of 0.9934 (overall accuracy of 99.35%), hence demonstrating the technical feasibility of our approach. Our results are a first step toward a smartphone-assisted plant disease diagnosis system.
+                </p>
+
+                </h4></font>
+
+                <font face="Titillium Web" color="green"><h3><center><u>Approach</u></center></h3></font><br><hr>
+                <font face="" color="red"><h4>
+                <p>
+                    We evaluate the applicability of deep convolutional neural networks for the classification problem described above. We focus on two popular architectures, namely AlexNet (Krizhevsky et al., 2012), and GoogLeNet (Szegedy et al., 2015), which were designed in the context of the “Large Scale Visual Recognition Challenge” (ILSVRC) (Russakovsky et al., 2015) for the ImageNet dataset (Deng et al., 2009).
+                </p>
+
+                <p>
+                    The AlexNet architecture (see Figure S2) follows the same design pattern as the LeNet-5 (LeCun et al., 1989) architecture from the 1990s. The LeNet-5 architecture variants are usually a set of stacked convolution layers followed by one or more fully connected layers. The convolution layers optionally may have a normalization layer and a pooling layer right after them, and all the layers in the network usually have ReLu non-linear activation units associated with them. AlexNet consists of 5 convolution layers, followed by 3 fully connected layers, and finally ending with a softMax layer. The first two convolution layers (conv{1, 2}) are each followed by a normalization and a pooling layer, and the last convolution layer (conv5) is followed by a single pooling layer. The final fully connected layer (fc8) has 38 outputs in our adapted version of AlexNet (equaling the total number of classes in our dataset), which feeds the softMax layer. The softMax layer finally exponentially normalizes the input that it gets from (fc8), thereby producing a distribution of values across the 38 classes that add up to 1. These values can be interpreted as the confidences of the network that a given input image is represented by the corresponding classes. All of the first 7 layers of AlexNet have a ReLu non-linearity activation unit associated with them, and the first two fully connected layers (fc{6, 7}) have a dropout layer associated with them, with a dropout ratio of 0.5.
+                </p>
+
+                <p>
+                    The GoogleNet architecture on the other hand is a much deeper and wider architecture with 22 layers, while still having considerably lower number of parameters (5 million parameters) in the network than AlexNet (60 million parameters). An application of the “network in network” architecture (Lin et al., 2013) in the form of the inception modules is a key feature of the GoogleNet architecture. The inception module uses parallel 1 × 1, 3 × 3, and 5 × 5 convolutions along with a max-pooling layer in parallel, hence enabling it to capture a variety of features in parallel. In terms of practicality of the implementation, the amount of associated computation needs to be kept in check, which is why 1 × 1 convolutions before the above mentioned 3 × 3, 5 × 5 convolutions (and also after the max-pooling layer) are added for dimensionality reduction. Finally, a filter concatenation layer simply concatenates the outputs of all these parallel layers. While this forms a single inception module, a total of 9 inception modules is used in the version of the GoogLeNet architecture that we use in our experiments. A more detailed overview of this architecture can be found for reference in (Szegedy et al., 2015).
+                </p>
+
+                <p>
+                    We analyze the performance of both these architectures on the PlantVillage dataset by training the model from scratch in one case, and then by adapting already trained models (trained on the ImageNet dataset) using transfer learning. In case of transfer learning, we re-initialize the weights of layer fc8 in case of AlexNet, and of the loss {1,2,3}/classifier layers in case of GoogLeNet. Then, when training the model, we do not limit the learning of any of the layers, as is sometimes done for transfer learning. In other words, the key difference between these two learning approaches (transfer vs. training from scratch) is in the initial state of weights of a few layers, which lets the transfer learning approach exploit the large amount of visual knowledge already learned by the pre-trained AlexNet and GoogleNet models extracted from ImageNet (Russakovsky et al., 2015).
+                </p>
+                <br>
+                <ol type='1'>
+                    <li><b>Choice of deep learning architecture:</b>
+                    <ul type="circle">
+                        <li>AlexNet,
+                        <li>GoogLeNet.
+                    </ul>
+                    <li><b>Choice of training mechanism:</b>
+                    <ul type="circle">
+                        <li>Transfer Learning
+                        <li>Training from Scratch.
+                    </ul>
+                    <li><b>Choice of dataset type:</b>
+                    <ul type="circle">
+                        <li>Color
+                        <li>Gray scale,
+                        <li>Leaf Segmented.
+                    </ul>
+                    <li><b>Choice of training-testing set distribution:</b>
+                    <ul type="circle">
+                        <li>Train: 80%, Test: 20%,
+                        <li>Train: 60%, Test: 40%,
+                        <li>Train: 50%, Test: 50%,
+                        <li>Train: 40%, Test: 60%,
+                        <li>Train: 20%, Test: 80%.
+                    </ul>
+                </ol>
+                </h4></font>
+                <input type="button"  id="readless" Value="Read Less!" onclick="less()" style="display: none;margin-bottom: 4px" class="btn btn-danger" />
+              </div>
+                </div>
+            </div>
+
+{% endblock %}
+{% block script %}
+<script >
+    var extra=document.getElementById('extra');
+    var readmorebtn=document.getElementById('readmore');
+    var readlessbtn=document.getElementById('readless');
+    function more(){
+    extra.style.display="block";
+    readmorebtn.style.display="none";
+    readless.style.display="block";
+    }
+    function less(){
+        extra.style.display="none";
+        readmorebtn.style.display="block";
+        readless.style.display="none";
+    }
+</script>
+{% endblock %}
+{% block css %}
+<style>
+    .card:hover{
+        transform: scale(1.1);
+        transition: 0.6s ease;
+
+    }
+</style>
+
+{% endblock %}

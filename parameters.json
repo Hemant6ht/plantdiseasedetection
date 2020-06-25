@@ -1,0 +1,6 @@
+{
+	"params":{
+		"local_uri":"mysql+pymysql://root:@localhost/plantdiseasedetection",
+		"prod_uri":""
+	}
+}

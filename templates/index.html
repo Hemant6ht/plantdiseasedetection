@@ -1,0 +1,28 @@
+            {% extends "layout.html" %}
+            {% block body %}
+            {% if username == True %}
+            <div class="alert alert-success" role="alert">
+                Hello! Now you can use our Analyse function from Navigation Bar
+            </div>
+            {% endif %}
+            <div class="row" style="margin-left: 0px; margin-right: 0px;padding-bottom: 15px;margin-bottom:20px">
+                        <div class="col-sm-12" >
+                            <div class="scoll image"style="width:100%">
+                                <div class="mySlides" style="display:block;">
+                                    <img src="{{ url_for('static',filename='images/colox.jpg') }}" style="width:100%;opacity:1" class="img-responsive">
+                                </div>
+                                <div class="mySlides" style="">
+                                    <img src="{{ url_for('static',filename='images/coloy.jpg') }}" style="width:100% ; opacity:1" class="img-responsive">
+                                </div>
+                                <div class="mySlides" style="">
+                                    <img src="{{ url_for('static',filename='images/coloz.jpg') }}" style="width:100% ; opacity:1" class="img-responsive">
+                                </div>
+                                <button class="colbtn" onclick="plusDivs(-1)" style="position:absolute;top:50%;left:5%;transform:translate(0%,-50%);-ms-transform:translate(-0%,-50%);border:none;display:inline-block;padding:8px 16px;vertical-align:middle;overflow:hidden;text-decoration:none;color:inherit;text-align:center;cursor:pointer;white-space:nowrap;"><b><font color="white">&#10094;</font></b>
+                                </button>
+                                <button class="colbtn" onclick="plusDivs(1)" style="position:absolute;top:50%;right:8%;transform:translate(0%,-50%);-ms-transform:translate(0%,-50%);border:none;display:inline-block;padding:8px 16px;vertical-align:middle;overflow:hidden;text-decoration:none;color:inherit;text-align:center;cursor:pointer;white-space:nowrap;"><b><font color="white">&#10095;</font><b>
+                                </button>
+                            </div>
+                        </div>
+            </div>
+            {% endblock %}
+                  
